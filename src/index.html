@@ -11,7 +11,7 @@
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
             <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1">RF Exposure Calculator</span>
+                <span class="navbar-brand mb-1 h1">RF Exposure Calculator</span>
 
                 <button type="button"
                         class="navbar-toggler"
@@ -58,7 +58,7 @@
 
         <div class="container">
             <div class="row">
-                <form id="params" class="col-6">
+                <form id="params" class="col-lg-6">
                     <div class="input-group mb-3">
                         <div class="form-floating">
                             <input type="number" step="0.0001" min="0" class="form-control" id="power" placeholder="Power">
@@ -78,7 +78,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col">
+                        <div class="col-md">
                             <div class="input-group mb-3">
                                 <div class="form-floating">
                                     <input type="number" min="0" class="form-control" id="tx-duty-cycle[tx]" placeholder="Transmit For">
@@ -88,7 +88,7 @@
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col-md">
                             <div class="input-group mb-3">
                                 <div class="form-floating">
                                     <input type="number" min="0" class="form-control" id="tx-duty-cycle[rx]" placeholder="Receive For">
@@ -123,7 +123,7 @@
                     <button type="submit" class="btn btn-outline-primary float-end">Calculate</button>
                 </form>
 
-                <div class="col-6">
+                <div class="col-lg-6">
                     <div id="results" style="">
                         <div class="card mb-3">
                             <div class="card-header">

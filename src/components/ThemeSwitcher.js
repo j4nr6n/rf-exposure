@@ -16,7 +16,7 @@ export class ThemeSwitcher {
     getPreferredTheme() {
         const storedTheme = localStorage.getItem('theme');
         const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark').matches;
-        debugger;
+
         return storedTheme ?? (prefersDarkMode ? 'dark' : 'light');
     }
 }
