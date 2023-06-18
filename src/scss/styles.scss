@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+// Import all of Boostrap's CSS
+@import 'bootstrap/scss/bootstrap';
+
+@import '../fonts/open-sans';
+@import '../fonts/titillium-web';
+
+html {
+    position: relative;
+    min-height: 100%;
+    margin-bottom: 4rem;
+    overflow-x: hidden;
+
+    body {
+        font-family: 'Open Sans', 'sans-serif';
+
+        h1,h2,h3,h4,h5,h6 {
+            font-family: 'Titillium Web', 'Open Sans', 'sans-serif';
+        }
+
+        span.navbar-brand {
+            font-family: 'Titillium Web', 'Open Sans', 'sans-serif';
+            font-weight: 300;
+            font-size: 1.5rem;
+        }
+
+        span.result-label {
+            font-size: 1.4rem;
+        }
+
+        span.result-value {
+            font-size: 2.4rem;
+        }
+    }
+}
