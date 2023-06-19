@@ -59,10 +59,16 @@
 
         <div class="container">
             <div class="row">
-                <form id="params" class="col-lg-6 mb-4">
+                <form id="params" class="col-lg-6 mb-4" novalidate>
                     <div class="input-group mb-3">
                         <div class="form-floating">
-                            <input type="number" step="0.0001" min="0" class="form-control" id="power" placeholder="Power At Antenna">
+                            <input type="number"
+                                   step="0.0001"
+                                   min="0"
+                                   class="form-control"
+                                   id="power"
+                                   placeholder="Power At Antenna"
+                                   required>
                             <label for="power">Power At Antenna</label>
                         </div>
                         <span class="input-group-text">Watts</span>
@@ -82,7 +88,13 @@
                         <div class="col-md">
                             <div class="input-group mb-3">
                                 <div class="form-floating">
-                                    <input type="number" step="0.01" min="0" class="form-control" id="tx-duty-cycle[tx]" placeholder="Transmit For">
+                                    <input type="number"
+                                           step="0.01"
+                                           min="0"
+                                           class="form-control"
+                                           id="tx-duty-cycle[tx]"
+                                           placeholder="Transmit For"
+                                           required>
                                     <label for="tx-duty-cycle[tx]">Transmit For</label>
                                 </div>
                                 <span class="input-group-text">Minute(s)</span>
@@ -92,7 +104,13 @@
                         <div class="col-md">
                             <div class="input-group mb-3">
                                 <div class="form-floating">
-                                    <input type="number" step="0.01" min="0" class="form-control" id="tx-duty-cycle[rx]" placeholder="Receive For">
+                                    <input type="number"
+                                           step="0.01"
+                                           min="0"
+                                           class="form-control"
+                                           id="tx-duty-cycle[rx]"
+                                           placeholder="Receive For"
+                                           required>
                                     <label for="tx-duty-cycle[rx]">Receive For</label>
                                 </div>
                                 <span class="input-group-text">Minute(s)</span>
@@ -102,7 +120,13 @@
 
                     <div class="input-group mb-3">
                         <div class="form-floating">
-                            <input type="number" step="0.0001" min="0" class="form-control" id="antenna-gain" placeholder="Antenna Gain">
+                            <input type="number"
+                                   step="0.0001"
+                                   min="0"
+                                   class="form-control"
+                                   id="antenna-gain"
+                                   placeholder="Antenna Gain"
+                                   required>
                             <label for="antenna-gain">Antenna Gain</label>
                         </div>
                         <span class="input-group-text">dBi</span>
@@ -110,7 +134,13 @@
 
                     <div class="input-group mb-3">
                         <div class="form-floating">
-                            <input type="number" step="0.0001" min="0" class="form-control" id="operating-frequency" placeholder="Operating Frequency">
+                            <input type="number"
+                                   step="0.0001"
+                                   min="0"
+                                   class="form-control"
+                                   id="operating-frequency"
+                                   placeholder="Operating Frequency"
+                                   required>
                             <label for="operating-frequency">Operating Frequency</label>
                         </div>
                         <span class="input-group-text">MHz</span>

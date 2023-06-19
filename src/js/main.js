@@ -25,6 +25,15 @@ const formElem = document.querySelector('#params');
 formElem.addEventListener('submit', (e) => {
     e.preventDefault();
 
+    if (!formElem.checkValidity()) {
+        e.stopPropagation();
+        formElem.classList.add('was-validated');
+
+        return;
+    } else {
+        formElem.classList.remove('was-validated');
+    }
+
     const powerInWatts = parseFloat(formElem.querySelector('#power').value);
     const modeDutyCycle = parseFloat(formElem.querySelector('#mode-duty-cycle').value);
     const txDutyCycle = {
