@@ -1,6 +1,6 @@
 {
-    "name": "tinylan",
-    "version": "1.0.0",
+    "name": "rf-exposure",
+    "version": "0.0.1",
     "license": "MIT",
     "devDependencies": {
         "@popperjs/core": "^2.11.8",
