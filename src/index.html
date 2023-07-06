@@ -42,7 +42,7 @@
                 <span class="navbar-brand mb-1 h1">RF Exposure Calculator</span>
 
                 <button type="button"
-                        class="navbar-toggler"
+                        class="navbar-toggler d-print-none"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbar-supported-content"
                         aria-controls="navbar-supported-content"
@@ -52,7 +52,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbar-supported-content">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-print-none">
                         <li class="nav-item">
                             <a href="https://github.com/j4nr6n/rf-exposure" class="nav-link" target="_blank" rel="noopener">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="1.6em" viewBox="0 0 496 512" fill="currentColor">
@@ -188,46 +188,54 @@
                         <label class="form-check-label" for="ground-reflection-effects">Include Ground Reflection Effects</label>
                     </div>
 
-                    <button type="submit" class="btn btn-outline-primary float-end">Calculate</button>
+                    <button type="submit" class="btn btn-outline-primary float-end d-print-none">
+                        Calculate
+                    </button>
                 </form>
 
                 <div class="col-lg-6">
-                    <div id="results" style="">
-                        <div class="card mb-3">
-                            <div class="card-header">
-                                Controlled Environment
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title mb-0">Maximum Allowed Power Density</h5>
-                                <p class="card-text">
-                                    <span id="controlled-max-allowed-power-density" class="result-value">0</span>
-                                    <span class="result-label">mW/cm<sup>2</sup></span>
-                                </p>
+                    <div class="row" id="results">
+                        <div class="col-12 col-print-6">
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    Controlled Environment
+                                </div>
 
-                                <h5 class="card-title mb-0">Minimum Safe Distance</h5>
-                                <p class="card-text">
-                                    <span id="controlled-min-safe-distance" class="result-value">0</span>
-                                    <span class="result-label">Feet</span>
-                                </p>
+                                <div class="card-body">
+                                    <h5 class="card-title mb-0">Maximum Allowed Power Density</h5>
+                                    <p class="card-text">
+                                        <span id="controlled-max-allowed-power-density" class="result-value">0</span>
+                                        <span class="result-label">mW/cm<sup>2</sup></span>
+                                    </p>
+
+                                    <h5 class="card-title mb-0">Minimum Safe Distance</h5>
+                                    <p class="card-text">
+                                        <span id="controlled-min-safe-distance" class="result-value">0</span>
+                                        <span class="result-label">Feet</span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="card mb-3">
-                            <div class="card-header">
-                                Uncontrolled Environment
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title mb-0">Maximum Allowed Power Density</h5>
-                                <p class="card-text">
-                                    <span id="uncontrolled-max-allowed-power-density" class="result-value">0</span>
-                                    <span class="result-label">mW/cm<sup>2</sup></span>
-                                </p>
+                        <div class="col-12 col-print-6">
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    Uncontrolled Environment
+                                </div>
 
-                                <h5 class="card-title mb-0">Minimum Safe Distance</h5>
-                                <p class="card-text">
-                                    <span id="uncontrolled-min-safe-distance" class="result-value">0</span>
-                                    <span class="result-label">Feet</span>
-                                </p>
+                                <div class="card-body">
+                                    <h5 class="card-title mb-0">Maximum Allowed Power Density</h5>
+                                    <p class="card-text">
+                                        <span id="uncontrolled-max-allowed-power-density" class="result-value">0</span>
+                                        <span class="result-label">mW/cm<sup>2</sup></span>
+                                    </p>
+
+                                    <h5 class="card-title mb-0">Minimum Safe Distance</h5>
+                                    <p class="card-text">
+                                        <span id="uncontrolled-min-safe-distance" class="result-value">0</span>
+                                        <span class="result-label">Feet</span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
