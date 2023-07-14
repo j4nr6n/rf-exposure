@@ -2086,7 +2086,7 @@ retry@^0.13.1:
   resolved "https://registry.yarnpkg.com/retry/-/retry-0.13.1.tgz#185b1587acf67919d63b357349e03537b2484658"
   integrity sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==
 
-rf-exposure-calculator@^1.0.4:
+rf-exposure-calculator@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/rf-exposure-calculator/-/rf-exposure-calculator-1.0.5.tgz#d29bdc256eefd69183bf07bbebe119ad639b167c"
   integrity sha512-5L+S90wJb25k2X1HEJFGzzl5+E/Jv2c4kmmGhrWEkuSG0aUnlgqrvcLnH7s/kbulrq/hXeaDnq1m1G0vIKfqoA==
