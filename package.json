@@ -10,7 +10,7 @@
         "html-webpack-plugin": "^5.5.3",
         "postcss": "^8.1.0",
         "postcss-loader": "^7.3.3",
-        "rf-exposure-calculator": "^1.0.4",
+        "rf-exposure-calculator": "^1.0.5",
         "sass": "^1.63.4",
         "sass-loader": "^13.3.2",
         "style-loader": "^3.3.3",

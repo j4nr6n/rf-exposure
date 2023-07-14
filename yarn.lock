@@ -2087,9 +2087,9 @@ retry@^0.13.1:
   integrity sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==
 
 rf-exposure-calculator@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/rf-exposure-calculator/-/rf-exposure-calculator-1.0.4.tgz#b5f298df076b037dbca1034873616cf2c9945479"
-  integrity sha512-yc3CIF/sXtP8okUlZnkvxRnIZbC5XtJMuAXUGyUXShFuKo1c3Y/bXtIcJweMqPdeZhejE6U8w7km0a2+7ED0nw==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/rf-exposure-calculator/-/rf-exposure-calculator-1.0.5.tgz#d29bdc256eefd69183bf07bbebe119ad639b167c"
+  integrity sha512-5L+S90wJb25k2X1HEJFGzzl5+E/Jv2c4kmmGhrWEkuSG0aUnlgqrvcLnH7s/kbulrq/hXeaDnq1m1G0vIKfqoA==
 
 rimraf@^3.0.2:
   version "3.0.2"
