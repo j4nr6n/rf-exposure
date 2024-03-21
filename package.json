@@ -1,6 +1,6 @@
 {
     "name": "rf-exposure",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "MIT",
     "devDependencies": {
         "@popperjs/core": "^2.11.8",
