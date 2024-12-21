@@ -17,12 +17,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 'latest'
-          cache: 'yarn'
+          cache: 'npm'
 
       - name: Install and Build 🔧
         run: |
-          yarn install --frozen-lockfile
-          yarn build
+          npm install
+          npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
