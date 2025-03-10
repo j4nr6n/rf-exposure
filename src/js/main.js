@@ -4,8 +4,8 @@ import '../scss/styles.scss';
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap';
 
-import { ThemeSwitcher } from '../components/ThemeSwitcher';
-import { RFExposureCalculator } from 'rf-exposure-calculator';
+import ThemeSwitcher from '../components/ThemeSwitcher';
+import RFExposureCalculator from 'rf-exposure-calculator';
 
 const themeSwitcher = new ThemeSwitcher();
 const themeSelector = document.querySelector('#js-theme-selector');

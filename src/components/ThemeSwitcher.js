@@ -1,4 +1,4 @@
-export class ThemeSwitcher {
+export default class {
     constructor() {
         this.setTheme(this.getPreferredTheme());
     }

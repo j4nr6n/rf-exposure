@@ -10,12 +10,12 @@
         "html-webpack-plugin": "^5.6.0",
         "postcss": "^8.4.35",
         "postcss-loader": "^8.1.1",
-        "rf-exposure-calculator": "^1.0.6",
-        "sass": "^1.71.1",
-        "sass-loader": "^14.1.1",
-        "style-loader": "^3.3.4",
+        "rf-exposure-calculator": "^1.1.0",
+        "sass": "^1.77.8",
+        "sass-loader": "^16.0.5",
+        "style-loader": "^4.0.0",
         "webpack": "^5.90.3",
-        "webpack-cli": "^5.1.4",
+        "webpack-cli": "^6.0.1",
         "webpack-dev-server": "^5.0.2"
     },
     "scripts": {
